@@ -19,6 +19,7 @@ public class Practice1 {
             
             driver.get(baseUrl);
             driver.manage().window().maximize();
+            System.out.println("Execution completed");
 			
 		} 
         catch (Exception e) {
